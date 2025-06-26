@@ -12,6 +12,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    letter-spacing: .03rem;
 }
 
 body {
@@ -58,6 +59,7 @@ header .btn-contact {
     0 0 15px #10ffe74f,
     0 0 20px #10ffe74f;
     transition: all .15s ease-in-out;
+    cursor: pointer;
 }
 
 header .btn-contact:hover {
@@ -81,7 +83,7 @@ header .btn-contact:hover {
     background: linear-gradient(270deg, var(--main-color) 10%, var(--text-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  text-shadow:
+    text-shadow:
     0 0 10px #10ffe74f,
     0 0 15px #10ffe74f,
     0 0 20px #10ffe74f;
@@ -99,4 +101,50 @@ nav a {
 nav a:hover {
     color: var(--text-color);
     border-bottom: 3px solid var(--main-color);
+}
+
+
+/* ------------------- HOME ---------------------- */
+
+.home {
+    margin-top: 200px;
+    width: 40%;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.icons-container img {
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #03e6cf;
+    box-shadow:
+    0 0 10px #10ffe74f,
+    0 0 15px #10ffe74f,
+    0 0 20px #10ffe74f;
+    transition: all .15s ease-in-out;
+}
+
+.icons-container img:hover {
+    transform: scale(1.2);
+}
+
+.home h1 {
+    font-size: 4rem;
+}
+
+.home h3 {
+    margin-top: 3px;
+    font-size: 2rem;
+    margin-bottom: 17px;
+}
+
+.home p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.home span {
+    background: linear-gradient(270deg, var(--main-color) 10%, var(--text-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
