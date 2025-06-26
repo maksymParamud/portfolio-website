@@ -107,10 +107,13 @@ nav a:hover {
 /* ------------------- HOME ---------------------- */
 
 .home {
-    margin-top: 200px;
     width: 40%;
     margin-left: 200px;
     color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .icons-container img {
@@ -147,4 +150,31 @@ nav a:hover {
     background: linear-gradient(270deg, var(--main-color) 10%, var(--text-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+/* ---------------------------- ABOUT ---------------------- */
+
+.about {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  width: 40%;
+  margin-left: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    background: linear-gradient(270deg, var(--main-color) 10%, var(--text-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about span {
+    color: var(--text-color);
 }
