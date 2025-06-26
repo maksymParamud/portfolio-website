@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --main-color: #00acb5;
+    --text-color: #03e6cf;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +16,87 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
+    background-image: url("../images/image.png");
+}
+
+
+/* ----------------------- HEADER ---------------------- */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2.5rem 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+header a {
+    color: #fff;
+    transition: all .15s ease-in-out;
+}
+
+header nav a:hover {
+    color: var(--text-color);
+}
+
+header .btn-contact {
+    height: 2.5rem;
+    width: 5.2rem;
+    font-size: 1.1rem;
+    border-radius: 35px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    box-shadow:
+    0 0 10px #10ffe74f,
+    0 0 15px #10ffe74f,
+    0 0 20px #10ffe74f;
+    transition: all .15s ease-in-out;
+}
+
+header .btn-contact:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: var(--text-color);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo span {
+    background: linear-gradient(270deg, var(--main-color) 10%, var(--text-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 0 10px #10ffe74f,
+    0 0 15px #10ffe74f,
+    0 0 20px #10ffe74f;
+}
+
+nav {
+    margin-right: 100px;
+}
+
+nav a {
+    margin-left: 25px;
+    transition: all .15s ease-in-out;
+}
+
+nav a:hover {
+    color: var(--text-color);
+    border-bottom: 3px solid var(--main-color);
 }
