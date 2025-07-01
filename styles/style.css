@@ -288,3 +288,84 @@ nav a:hover {
 .project-card button:hover {
     transform: scale(1.1);
 }
+
+
+/* ----------------------- CONTACT ----------------------- */
+
+.contact {
+    height: 75vh;
+    margin-top: 30rem;
+    padding-bottom: 10rem;
+    padding-top: 6rem;
+    padding-bottom: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 4rem;
+    background: linear-gradient(200deg, var(--text-color) 10%, var(--main-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.contact-icons p {
+    font-size: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+.contact-icons span {
+    background: linear-gradient(200deg, var(--main-color) 10%, var(--text-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.contact-link {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.contact-link a {
+    color: var(--text-color);
+}
+
+.contact-links-wrapper {
+    min-width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link img {
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #03e6cf;
+    box-shadow:
+    0 0 10px #10ffe74f,
+    0 0 15px #10ffe74f,
+    0 0 20px #10ffe74f;
+}
