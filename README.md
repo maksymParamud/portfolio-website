@@ -2,10 +2,6 @@
 
 A personal portfolio website built to showcase my frontend development skills, projects, and contact information.
 
-## 🔗 Live Demo
-
-[View Live](https://maksymParamud.github.io/portfolio-website) *(optional — заміни, якщо маєш GitHub Pages URL)*
-
 ## 📌 Description
 
 This is a modern, responsive portfolio website developed using **HTML**, **CSS**, and **JavaScript**. It includes four main sections: Home, About, Projects, and Contact. The design is clean and minimal, featuring smooth scroll, a burger menu for mobile navigation, and animations for a polished user experience.
