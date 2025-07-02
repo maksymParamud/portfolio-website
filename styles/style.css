@@ -50,6 +50,10 @@ header {
     z-index: 1000;
 }
 
+header .burger-menu {
+    display: none;
+}
+
 header a {
     color: #fff;
     transition: all .15s ease-in-out;
@@ -210,7 +214,10 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    height: 150vh;
+    margin-bottom: 30rem; 
+    width: 80%;
+    margin: 0;
 }
 
 .heading {
@@ -222,8 +229,9 @@ nav a:hover {
 .projects-box {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 425px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 425px));
     justify-content: space-around;
+    gap: 1.2rem;
 }
 
 .project-card {
@@ -293,10 +301,8 @@ nav a:hover {
 /* ----------------------- CONTACT ----------------------- */
 
 .contact {
-    height: 75vh;
-    margin-top: 30rem;
-    padding-bottom: 10rem;
-    padding-top: 6rem;
+    height: 50vh;
+    padding-top: 10rem;
     padding-bottom: 40rem;
     display: flex;
     flex-direction: column;
@@ -324,7 +330,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 600px;
+    max-width: 600px;
 }
 
 .contact-icons p {
