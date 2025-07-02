@@ -103,6 +103,10 @@
 }
 
 @media (max-width: 400px) {
+
+    header {
+        padding: 1rem;
+    }
     
     .home {
         padding-top: 10rem;
