@@ -63,6 +63,10 @@ header nav a:hover {
     color: var(--text-color);
 }
 
+.active-navbar {
+    display: block;
+}
+
 header .btn-contact {
     height: 2.5rem;
     width: 5.2rem;
@@ -217,7 +221,7 @@ nav a:hover {
     height: 150vh;
     margin-bottom: 30rem; 
     width: 80%;
-    margin: 0;
+    margin: auto;
 }
 
 .heading {
